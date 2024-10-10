@@ -1,0 +1,162 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.nav-1{
+    width: 100% !important;
+    min-height: 30px !important;
+}
+.nav-1-icon i{
+    font-size: 15px !important;
+    padding: 5px 10px !important;
+    color: #666568a4 !important;
+    border-left: 1px solid rgba(128, 128, 128, 0.137);
+    
+}
+.nav-1-icon i:hover{
+    background-color: rgba(128, 128, 128, 0.349);
+}
+/* navbar_2 */
+
+  .dropdown-menu{
+    background-color: black;
+    padding: 0 !important;
+  }
+  .dropdown-menu .dropdown-item{
+    background-color: black;
+    padding:10px 30px;
+    color: #fff;
+  }
+  .dropdown-menu .dropdown-item:hover{
+    background-color: black;
+    color: #FA6F1C;
+    border-right: 2px solid #FA6F1C;
+
+  }
+/* header */
+.head-carosel{
+   
+}
+.head-carosel .caro-1{
+    width: 100%;
+    min-height: 700px;
+    background: url(./images/car-img1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head-carosel .caro-2{
+    width: 100%;
+    min-height: 700px;
+    background: url(./images/car-img2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.car-box1{
+    color: white;
+    background-color:#FA6F1C;
+    margin-top: 470px;
+    line-height: 20px; 
+    width: 100%;
+    text-align: center;
+}
+.car-box2{
+    color: white;
+    background-color:#FA6F1C;
+    margin: 15px;
+    margin-top: 250px;
+    margin-left: 100px;
+    padding: 20px;
+    line-height: 20px;
+    width: 500PX;
+}
+
+
+
+
+
+
+/* staff */
+
+.socials:hover i{
+    color: white !important;
+    background-color: black;
+}
+/* img{
+    width: 400px;
+} */
+.text_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    flex-direction: column;
+    line-height: 20px;
+}
+.text_div:hover{
+   background-color: #FA6F1C;
+   color:white;
+}
+.text_div i{
+display: flex;
+flex-direction: column;
+}
+
+@media  screen and (min-width:998) {
+    .staff{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:620) {
+    .staff{
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 10px auto;
+    }
+}
+
+
+
+/* footer */
+ li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #75737f;
+}
+li{
+    list-style-type: none;
+}
+ 
+
+/* staff */
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 500px;
+}
+
+/* news and post */
+.icon:hover{
+background-color: #FA6F1C;
+color: white;
+border: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* double_bar */
+.line{
+    height: 1px;
+     width: 400px;
+} */
